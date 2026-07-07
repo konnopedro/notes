@@ -1,3 +1,84 @@
+# Sistema de Notas
+
+Sistema web desenvolvido com Laravel que permite aos usuários criar e gerenciar notas pessoais de forma segura.
+
+## Funcionalidades
+
+- Cadastro de usuários
+- Login e logout
+- Verificação de e-mail
+- Criação de notas
+- Edição de notas
+- Exclusão de notas
+- Cada usuário visualiza apenas suas próprias notas
+
+## Tecnologias utilizadas
+
+- Laravel 12
+- PHP 8.5
+- MySQL
+- Blade
+- Bootstrap
+- HTML
+- CSS
+
+## Como executar
+
+### Clone o repositório
+
+```bash
+git clone https://github.com/konnopedro/notes
+```
+
+### Entre na pasta
+
+```bash
+cd sistema-notas
+```
+
+### Instale as dependências
+
+```bash
+composer install
+npm install
+```
+
+### Configure o ambiente
+
+```bash
+cp .env.example .env
+```
+
+Edite o arquivo `.env` com as configurações do banco de dados.
+
+### Gere a chave da aplicação
+
+```bash
+php artisan key:generate
+```
+
+### Execute as migrations
+
+```bash
+php artisan migrate
+```
+
+### Inicie o servidor
+
+```bash
+php artisan serve
+```
+
+## Capturas de tela
+
+Adicione imagens da tela de login, dashboard e gerenciamento de notas.
+
+## Autor
+
+Pedro Henrique Taro Konno
+
+LinkedIn: <a href="https://www.linkedin.com/in/pedro-henrique-taro-konno-b3282530b/">https://www.linkedin.com/in/pedro-henrique-taro-konno-b3282530b/</a>
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
